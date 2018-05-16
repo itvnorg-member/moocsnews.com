@@ -198,8 +198,8 @@ $courses = get_post_by_taxonomy('course', 'subject', $term->slug, -1);
 <script type="text/javascript">
 	var $ = jQuery;
 	$(document).ready(function() {
-		var languages;
-		var statuses;
+		var languages = [];
+		var statuses = [];
 		var dtTable = $('table.datatable').DataTable({
 			"dom": '<"top"i>rt<"bottom clearfix"lp><"clear">',
 			"columnDefs": [

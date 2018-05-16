@@ -232,9 +232,9 @@ $subjects = get_terms( array(
 <script type="text/javascript">
 	var $ = jQuery;
 	$(document).ready(function() {
-		var languages;
-		var statuses;
-		var subjects;
+		var languages = [];
+		var statuses = [];
+		var subjects = [];
 		var dtTable = $('table.datatable').on( 'processing.dt', function ( e, settings, processing ) {
 		    if (!processing) {
 		    }
